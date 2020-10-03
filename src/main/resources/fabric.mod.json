@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "moobloom",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Moobloom Mod",
+  "description": "This mod adds the moobloom mob that Mojang didn't add",
   "authors": [
-    "Me!"
+    "Onyx"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/Low-Quality-Memes/Moobloom"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "Unlicense",
+  "icon": "assets/moobloom/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.onyx.moobloom.MoobloomMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "moobloom.mixins.json"
   ],
 
   "depends": {
