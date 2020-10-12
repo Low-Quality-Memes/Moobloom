@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "me.onyx.moobloom.MoobloomMod"
+    ],
+    "client": [
+      "me.onyx.moobloom.MoobloomModClient"
     ]
   },
   "mixins": [
